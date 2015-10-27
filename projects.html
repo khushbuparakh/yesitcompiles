@@ -42,8 +42,36 @@ and open the template in the editor.
         <div style="width: 633px; border: 1px solid;">
             <div>
                 <h3 style="display: inline-block; margin-top: 0px;">List of Projects</h3>
-                <a href="AddProject.html"  target="_blank"><i class=" halflings-icon plus pull-right"></i></a>
+                <!--<a href="AddProject.html"  target="_blank"><i class=" halflings-icon plus pull-right"></i></a>-->
+                <button type="button" class="btn btn-info btn-lg pull-right" data-toggle="modal" data-target="#myModal">
+                    <i class=" halflings-icon plus pull-right"></i>
+                </button>
             </div>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Add a Project</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div><input type="text" placeholder="Project Name" /></div>
+                            <textarea placeholder="Project Description :"></textarea>
+                            <div><input type="text" placeholder="Project Manager Name"/></div>
+                            <div><input type="text" placeholder="Location"/></div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             <hr style="background: #000">
             <ol>
                 <li>
