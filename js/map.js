@@ -9,5 +9,11 @@ function initialize() {
   //add dropdown over the map
   var controlDiv = document.getElementById('projectsMenu');
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(controlDiv);
+
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(29.0000,32.0000),
+    map: map,
+    title: 'Hello World!'
+  });
 }
 google.maps.event.addDomListener(window, 'load', initialize);

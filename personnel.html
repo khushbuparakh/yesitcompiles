@@ -470,7 +470,7 @@
                             </div>
                         </div><!--/span-->
                         
-                       <div> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#new-member">Add Memeber</button> </div>
+                       <div> <button onclick = "addUser()" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#new-member">Add Memeber</button> </div>
                         <div class="modal fade" id="new-member" role="dialog">
                 <div class="modal-dialog">
 
@@ -481,20 +481,20 @@
                             <h4 class="modal-title">Add a new member</h4>
                         </div>
                         <div class="modal-body">
-                            <div><input type="text" placeholder="Member First Name" /></div>
-                           <div><input type="text" placeholder="Member Last Name" /></div>
-                            <div><input type="text" placeholder="Email"/></div>
+                            <div><input id = "firstname" type="text" placeholder="Member First Name" /></div>
+                           <div><input id = "lastname" type="text" placeholder="Member Last Name" /></div>
+                            <div><input id = "email" type="text" placeholder="Email"/></div>
                              <div class="control-group">
                                 <label class="control-label" for="date02">Date Registered</label>
                                 <div class="controls">
-                                    <input type="text" class="input-xlarge datepicker" id="date02" value="02/16/12">
+                                    <input id = "date" type="text" class="input-xlarge datepicker" id="date02" value="02/16/12">
                                 </div>
                             </div> 
-                            <div><input type="text" placeholder="Role"/></div>
-                            <div><input type="text" placeholder="Gender"/></div>
-                            <div><input type="text" placeholder="City"/></div>
-                            <div><input type="text" placeholder="Status"/></div>
-                            <div><input type="text" placeholder="Rating"/></div>
+                            <div><input id = "role" type="text" placeholder="Role"/></div>
+                            <div><input id = "gender" type="text" placeholder="Gender"/></div>
+                            <div><input id = "city" type="text" placeholder="City"/></div>
+                            <div><input id = "status" type="text" placeholder="Status"/></div>
+                            <div><input id = "rating" type="text" placeholder="Rating"/></div>
 
 
                         </div>

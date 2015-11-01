@@ -57,8 +57,8 @@ and open the template in the editor.
                             <h4 class="modal-title">Add a Project</h4>
                         </div>
                         <div class="modal-body">
-                            <div><input type="text" placeholder="Project Name" /></div>
-                            <textarea placeholder="Project Description :"></textarea>
+                            <div><input id = "projectName" type="text" placeholder="Project Name" /></div>
+                            <textarea id = "projectDescription" placeholder="Project Description :"></textarea>
                             <div class="control-group">
                                 <label class="control-label" for="date01">Starting Date</label>
                                 <div class="controls">
@@ -79,15 +79,15 @@ and open the template in the editor.
                                 </div>
                             </div>  
 
-                            <div><input type="text" placeholder="Project Manager Name"/></div>
-                            <div><input type="text" placeholder="Number of People working on it"/></div>
-                            <div><input type="text" placeholder="Target audience"/></div>
-                            <div><input type="text" placeholder="Location"/></div>
+                            <div><input id = "projectMgrName" type="text" placeholder="Project Manager Name"/></div>
+                            <div><input id = "npeople" type="text" placeholder="Number of People working on it"/></div>
+                            <div><input id = "targetaudience" type="text" placeholder="Target audience"/></div>
+                            <div><input id = "location" type="text" placeholder="Location"/></div>
 
 
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+                            <button onclick="addProject()" type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -169,6 +169,8 @@ and open the template in the editor.
         <script src="js/retina.js"></script>
 
         <script src="js/custom.js"></script>
+
+        <script src="js/api.js"></script>
         <!-- end: JavaScript-->
 
     </body>
