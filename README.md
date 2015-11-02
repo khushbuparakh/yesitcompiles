@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Bootstrap_Metro_Dashboard
-=========================
-
-A Metro Style Dashboard Template with Twitter Bootstrap
-
-Demo: http://jiji262.github.io/Bootstrap_Metro_Dashboard/
-
-**NOTE:** Please remember to **STAR** this project and **FOLLOW** [my Github](https://github.com/jiji262) to keep you update with this template.
-
-Description
-----------------------------
-This template is based on Twitter bootstrap and metro-bootstrap style, jQuery 1.9.1 and jQuery UI are used.
-
-http://twitter.github.io/bootstrap/
-
-http://talkslab.github.io/metro-bootstrap/
-
 
 The jQuery plugins used in this project
 ---------------------------
@@ -55,8 +36,5 @@ http://retinajs.com
 =======
 # yetitcompile
 It's a Product and management web application 
->>>>>>> d55ad66fc99302b1f36c64c41c00c31b2daa092c
-=======
-# yetitcompile
-It's a Product and management web application 
->>>>>>> d55ad66fc99302b1f36c64c41c00c31b2daa092c
+Clone the repo 
+jekyll serve in command line to run the app
